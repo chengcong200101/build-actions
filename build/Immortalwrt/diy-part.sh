@@ -7,7 +7,7 @@
 
 # 后台IP设置
 export Ipv4_ipaddr="10.10.10.4"            # 修改openwrt后台地址(填0为关闭)
-export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
+export Netmask_netm="0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
 export Op_name="OpenWrt"                # 修改主机名称为OpenWrt-123(填0为不作修改)
 
 # 内核和系统分区大小(不是每个机型都可用)
