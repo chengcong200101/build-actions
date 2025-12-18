@@ -59,11 +59,11 @@ export Cancel_running="0"                    # 取消路由器每天跑分任务
 
 
 # 晶晨CPU系列打包固件设置(不懂请看说明)
-export amlogic_model="s905d"
-export amlogic_kernel="6.1.120_6.12.15"
-export auto_kernel="true"
-export rootfs_size="512/2560"
-export kernel_usage="stable"
+#export amlogic_model="s905d"
+#export amlogic_kernel="6.1.120_6.12.15"
+#export auto_kernel="true"
+#export rootfs_size="512/2560"
+#export kernel_usage="stable"
 
 
 # 修改插件名字
@@ -74,7 +74,7 @@ grep -rl '"实时流量监测"' . | xargs -r sed -i 's?"实时流量监测"?"流
 grep -rl '"KMS 服务器"' . | xargs -r sed -i 's?"KMS 服务器"?"KMS激活"?g'
 grep -rl '"USB 打印服务器"' . | xargs -r sed -i 's?"USB 打印服务器"?"打印服务"?g'
 grep -rl '"Web 管理"' . | xargs -r sed -i 's?"Web 管理"?"Web管理"?g'
-grep -rl '"管理权"' . | xargs -r sed -i 's?"管理权"?"改密码"?g'
+#grep -rl '"管理权"' . | xargs -r sed -i 's?"管理权"?"改密码"?g'
 grep -rl '"带宽监控"' . | xargs -r sed -i 's?"带宽监控"?"监控"?g'
 
 
